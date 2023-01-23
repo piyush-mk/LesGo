@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="Travel itinerary maker", layout="wide")
+st.set_page_config(page_title="LesGo | Travel itinerary maker", page_icon="", layout="centered", initial_sidebar_state="auto", menu_items=None)
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 import numpy as np
@@ -28,7 +28,7 @@ def knn_model(df,location,budget):
     return df1.iloc[indices[0]]
 
 def page():
-    title=st.title("Travel itinerary maker")
+    title=st.title("LesGo | Travel itinerary maker")
     st.write("This app will help you create a travel itinerary based on your location and budget constraints")
     st.markdown("##")
     with st.form(key='my_form'):
@@ -36,7 +36,7 @@ def page():
         budget=st.slider('Select your budget',min_value=0,max_value=30000,step=100)
         submit_button = st.form_submit_button(label='Submit')
     if submit_button:
-        st.write('Here are your top 5 recommendations based on your location and budget constraints')
+        st.write('Here are top 5 recommendations based on your location and budget constraints')
         st.markdown("##")
         knn_model(df,location,budget)
         #write the recommendations in a new dataframe and display it as a table in streamlit
