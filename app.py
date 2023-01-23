@@ -3,7 +3,6 @@ st.set_page_config(page_title="LesGo | Travel itinerary maker", page_icon="asset
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 import numpy as np
-import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 # streamlit app to create a travel itinerary based on location and budget constraints
 # data
