@@ -22,8 +22,8 @@ def knn_model(df,location,budget):
     df1=df1[['H_name','H_price','H_rating','distance','location','R_name','R_rating']]
     df1=df1.dropna()
     df1=df1.reset_index(drop=True)
-    X=df1[['distance',]]
-    nbrs = NearestNeighbors(n_neighbors=5, algorithm='ball_tree').fit(X)
+    X=df1[['distance','R_rating']]
+    nbrs = NearestNeighbors(n_neighbors=5, algorithm='kd_tree').fit(X)
     distances, indices = nbrs.kneighbors(X)
     return df1.iloc[indices[0]]
 
@@ -33,13 +33,19 @@ def page():
     st.markdown("##")
     with st.form(key='my_form'):
         location=st.selectbox('Select your location',df['location'].unique())
-        budget=st.slider('Select your budget',min_value=0,max_value=150000,step=100)
+        budget=st.slider('Select your budget',min_value=0,max_value=30000,step=100)
         submit_button = st.form_submit_button(label='Submit')
     if submit_button:
-        st.write('Here are your top 5 recommendations')
+        st.write('Here are your top 5 recommendations based on your location and budget constraints')
         st.markdown("##")
         knn_model(df,location,budget)
-        st.write(knn_model(df,location,budget))
+        #write the recommendations in a new dataframe and display it as a table in streamlit
+        #change the column names to make it more readable
+        df2=knn_model(df,location,budget)
+        df2.drop(['distance','location'],axis=1,inplace=True)
+        df2.columns=['Hotel name','Hotel price(/day)','Hotel rating','Restaurant name','Restaurant rating']
+        df2=df2.reset_index(drop=True)
+        st.table(df2)
         
     else:
         st.write('Please select your location and budget')
