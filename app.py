@@ -13,6 +13,3 @@ def load_data():
 
 data=load_data()
 
-# ml model to recommend hotels based on location and budget and return the top 5 hotels and restaurants in the area with their ratings
-def recommend_hotels(location, budget):
-    
