@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 # streamlit app to create a travel itinerary based on location and budget constraints
 # data
 def load_data():
-    df1 = pd.read_csv('joined_data.csv')
+    df1 = pd.read_csv('data/joined_data.csv')
     return df1
 
 df=load_data()
@@ -17,12 +17,12 @@ df=load_data()
 
 def knn_model(df,location,budget):
     df1=df.copy()
-    df1=df1[df1['city']==location]
-    df1=df1[df1['price']<=budget]
-    df1=df1[['name','price','rating','distance','city']]
+    df1=df1[df1['location']==location]
+    df1=df1[df1['H_price']<=budget]
+    df1=df1[['H_name','H_price','H_rating','distance','location','R_name','R_rating']]
     df1=df1.dropna()
     df1=df1.reset_index(drop=True)
-    X=df1[['distance','price','rating']]
+    X=df1[['distance',]]
     nbrs = NearestNeighbors(n_neighbors=5, algorithm='ball_tree').fit(X)
     distances, indices = nbrs.kneighbors(X)
     return df1.iloc[indices[0]]
@@ -32,7 +32,7 @@ def page():
     st.write("This app will help you create a travel itinerary based on your location and budget constraints")
     st.markdown("##")
     with st.form(key='my_form'):
-        location=st.selectbox('Select your location',df['city'].unique())
+        location=st.selectbox('Select your location',df['location'].unique())
         budget=st.slider('Select your budget',min_value=0,max_value=150000,step=100)
         submit_button = st.form_submit_button(label='Submit')
     if submit_button:
