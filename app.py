@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-im = Image.open("asset/favicon.svg")
+im = Image.open("asset/favicon.png")
 st.set_page_config(page_title="LesGo | Travel itinerary maker", page_icon="im", layout="centered", initial_sidebar_state="auto", menu_items=None)
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
