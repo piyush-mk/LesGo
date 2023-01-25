@@ -10,4 +10,5 @@ def load_data():
     df1 = pd.read_csv('data/joined_data.csv')
     return df1
 
-# knn model to generate recommendation for one hotel and three restaurants for breakfast lunch and dinner ranked by rating based on user input of location and budget
+#calculate the number of type of attraction for each city from the places.csv file
+def
