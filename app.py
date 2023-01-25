@@ -10,7 +10,16 @@ def load_data():
     df = pd.read_csv('data/joined_data.csv')
     return df
 df=load_data()
-#return one city name based on the highest count of the particular type of attraction in the city from the placetype csv
+
+#use knn to display 3 restaurants for each day of the based on the budget and city selected
+def get_restaurants(df, city, r_budget):
+    df = df[df['location'] == city]
+    df = df[df['R_price'] <= (r_budget)]
+    df = df.sort_values(by='R_price', ascending=False)
+    df = df[['R_name', 'R_price', 'R_rating']]
+    df = df.drop_duplicates()
+    df = df.reset_index(drop=True)
+    return df.iloc[:3]
     
 def get_city(df, placetype):
     df = df[df['P_type'] == placetype]
@@ -18,7 +27,6 @@ def get_city(df, placetype):
     df = df.sort_values(by='P_type', ascending=False)
     return df.iloc[0]['location']
 
-# knn model to recommend the top 5 hotels based on the location, budget and the rating of the hotel
 def hotel_knn_model(df, city, h_budget):
     df = df[df['location'] == city]
     df = df[df['H_price'] <= (h_budget)]
@@ -29,34 +37,16 @@ def hotel_knn_model(df, city, h_budget):
     df = df.iloc[:3]
     return df
     
-#dictionary for each day of the trip with hours of the day as keys and the activities/restaurants as values
-def itinerary(df, city, r_budget, days):
-    itinerary = {}
+#use clustering to get the top 5 attractions in the city based on the type of attraction and rating
+def get_attractions(df, city):
     df = df[df['location'] == city]
-    df = df.sort_values(by='R_price', ascending=False)
-    df = df[['R_name', 'R_price', 'R_rating']]
+    df = df[['P_name', 'P_type', 'P_rating']]
     df = df.drop_duplicates()
     df = df.reset_index(drop=True)
-    #get the total number of restaurants in the city
-    total_restaurants = df.shape[0]
-    #get the number of restaurants to be visited in a day
-    restaurants_per_day = int(total_restaurants / days)
-    #get the total budget for restaurants in a day
-    r_budget_per_day = r_budget / days
-    #get the number of restaurants to be visited in a day based on the budget constraint
-    restaurants_per_day = int(r_budget_per_day / df.iloc[0]['R_price'])
-    #get the number of restaurants to be visited in a day based on the total number of restaurants in the city
-    restaurants_per_day = min(restaurants_per_day, total_restaurants)
-    #get the list of restaurants to be visited in a day
-    restaurants_list = df.iloc[:restaurants_per_day]['R_name'].to_list()
-    #get the list of timings for the restaurants
-    restaurants_timings = ['12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm']
-    #get the timings for the restaurants based on the number of restaurants to be visited in a day
-    restaurants_timings = restaurants_timings[:restaurants_per_day]
-    #get the dictionary for the day with the timings as keys and the restaurants as values
-    for i in range(len(restaurants_timings)):
-        itinerary[restaurants_timings[i]] = restaurants_list[i]
-    return itinerary
+    df = df.sort_values(by='P_rating', ascending=False)
+    df = df.iloc[:5]
+    return df
+    
     
 def page():
     st.markdown("""
@@ -71,14 +61,17 @@ def page():
         with st.form(key='myform'):
             source_city=st.selectbox('Select the city you want to travel from -',df['location'].sort_values().unique())
             placetype=st.selectbox('Select the type of attractions you want to see -',df['P_type'].sort_values().unique())
-            budget=st.slider('Select your Total budget', 0, 150000, 500)
-            days=st.slider('Select the duration of travel (days)', 0, 15, 5)
+            budget=st.slider('Select your Total budget', 0, 150000, 50000)
+            days=st.slider('Select the duration of travel (days)', 0, 6, 2)
             submit_button=st.form_submit_button(label='Submit')
             
         if submit_button:
             flightcost=budget*0.25
-            r_budget=budget*0.4
+            flightcost=round(flightcost, 2)
+            r_budget=(budget*0.35)/days
+            r_budget=round(r_budget, 2)
             h_budget=(budget-flightcost-r_budget)/days
+            h_budget=round(h_budget, 2)
             
             st.write("### We reccomend you visit -")
             #display the city name in stylized format using markdown big font and bold text with red color
@@ -94,15 +87,22 @@ def page():
             st.write("### Here are the top 3 hotels we recommend:")
             df2=hotel_knn_model(df, city, h_budget)
             df2.columns=['Hotel Name', 'Price(/day)', 'Rating']
+            #round the and rating to 2 decimal places
+            df2['Rating']=df2['Rating'].apply(lambda x: round(x, 2))
             st.table(df2)
             
-            st.write("### Here is your itinerary for the day:")
-            itinerary_dict=itinerary(df, city, r_budget, days)
-            df6=pd.DataFrame([itinerary_dict])
-            #transpose the dataframe to get the timings as columns and the restaurants as rows
-            df6=df6.T
-            df6.columns=['Restaurant Name']
-            st.write(df6)
+            st.write("### Top attractions of",city,":")
+            new_attr=get_attractions(df, city)
+            new_attr.columns=['Attraction Name', 'Type', 'Rating']
+            st.table(new_attr)
+            
+            st.write("### Top restraunts of",city,":")
+            st.write("#### Note: The price is for a family of 4")
+            rest=get_restaurants(df, city, r_budget)
+            rest.columns=['Restraunt Name', 'Price(/meal)', 'Rating']
+            rest['Price(/meal)']=rest['Price(/meal)'].apply(lambda x: round(x, 2))
+            st.table(rest)
+            
             
         else:
             st.write("## Select a type of attraction to get started")
