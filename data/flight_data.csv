@@ -1,0 +1,443 @@
+source,destination,fare
+Agra,Mumbai,"₹ 7,970"
+Agra,Mumbai,"₹ 7,970"
+Agra,Jaipur,NA
+Agra,Varanasi,NA
+Agra,Manali,NA
+Agra,New Delhi,NA
+Agra,Kolkata,"₹ 13,578"
+Agra,Chennai,"₹ 13,190"
+Agra,Shimla,NA
+Agra,Bengaluru,"₹ 10,972"
+Agra,Ooty,NA
+Agra,Nainital,NA
+Agra,Darjeeling,NA
+Agra,Hyderabad,"₹ 11,183"
+Agra,Rishikesh,NA
+Agra,Pondicherry,NA
+Agra,Gangtok,NA
+Agra,Dehradun,NA
+Agra,Leh,NA
+Agra,Ahmedabad,"₹ 5,668"
+Agra,Srinagar,NA
+Agra,Puri,NA
+Agra,Dalhousie,NA
+Mumbai,Agra,"₹ 8,907"
+Mumbai,Jaipur,"₹ 6,889"
+Mumbai,Varanasi,"₹ 6,280"
+Mumbai,Manali,--
+Mumbai,New Delhi,"₹ 4,547"
+Mumbai,Kolkata,"₹ 7,704"
+Mumbai,Chennai,"₹ 4,336"
+Mumbai,Shimla,NA
+Mumbai,Bengaluru,"₹ 3,002"
+Mumbai,Ooty,NA
+Mumbai,Nainital,NA
+Mumbai,Darjeeling,NA
+Mumbai,Hyderabad,"₹ 4,473"
+Mumbai,Rishikesh,"₹ 8,006"
+Mumbai,Pondicherry,"₹ 14,918"
+Mumbai,Gangtok,NA
+Mumbai,Dehradun,"₹ 8,006"
+Mumbai,Leh,"₹ 14,369"
+Mumbai,Ahmedabad,"₹ 4,647"
+Mumbai,Srinagar,"₹ 11,718"
+Mumbai,Puri,NA
+Mumbai,Dalhousie,NA
+Jaipur,Agra,NA
+Jaipur,Mumbai,"₹ 3,426"
+Jaipur,Varanasi,"₹ 5,635"
+Jaipur,Manali,NA
+Jaipur,New Delhi,"₹ 1,125"
+Jaipur,Kolkata,"₹ 7,313"
+Jaipur,Chennai,"₹ 5,699"
+Jaipur,Shimla,NA
+Jaipur,Bengaluru,"₹ 5,507"
+Jaipur,Ooty,NA
+Jaipur,Nainital,NA
+Jaipur,Darjeeling,NA
+Jaipur,Hyderabad,"₹ 6,266"
+Jaipur,Rishikesh,"₹ 5,714"
+Jaipur,Pondicherry,NA
+Jaipur,Gangtok,NA
+Jaipur,Dehradun,"₹ 5,483"
+Jaipur,Leh,"₹ 9,739"
+Jaipur,Ahmedabad,"₹ 4,270"
+Jaipur,Srinagar,"₹ 8,265"
+Jaipur,Puri,NA
+Jaipur,Dalhousie,NA
+Varanasi,Agra,NA
+Varanasi,Mumbai,"₹ 4,926"
+Varanasi,Jaipur,"₹ 7,492"
+Varanasi,Manali,NA
+Varanasi,New Delhi,"₹ 3,326"
+Varanasi,Kolkata,"₹ 7,587"
+Varanasi,Chennai,"₹ 5,307"
+Varanasi,Shimla,NA
+Varanasi,Bengaluru,"₹ 8,032"
+Varanasi,Ooty,NA
+Varanasi,Nainital,NA
+Varanasi,Darjeeling,NA
+Varanasi,Hyderabad,"₹ 6,326"
+Varanasi,Rishikesh,"₹ 12,467"
+Varanasi,Pondicherry,NA
+Varanasi,Gangtok,NA
+Varanasi,Dehradun,"₹ 12,467"
+Varanasi,Leh,"₹ 10,508"
+Varanasi,Ahmedabad,"₹ 5,117"
+Varanasi,Srinagar,"₹ 15,225"
+Varanasi,Puri,NA
+Varanasi,Dalhousie,NA
+Manali,Agra,NA
+Manali,Mumbai,"₹ 14,788"
+Manali,Jaipur,NA
+Manali,Varanasi,NA
+Manali,New Delhi,"₹ 14,798"
+Manali,Kolkata,NA
+Manali,Chennai,NA
+Manali,Shimla,"₹ 3,563"
+Manali,Bengaluru,NA
+Manali,Ooty,NA
+Manali,Nainital,NA
+Manali,Darjeeling,NA
+Manali,Hyderabad,"₹ 19,698"
+Manali,Rishikesh,NA
+Manali,Pondicherry,NA
+Manali,Gangtok,NA
+Manali,Dehradun,NA
+Manali,Leh,NA
+Manali,Ahmedabad,NA
+Manali,Srinagar,NA
+Manali,Puri,NA
+Manali,Dalhousie,NA
+New Delhi,Agra,NA
+New Delhi,Mumbai,"₹ 4,226"
+New Delhi,Jaipur,"₹ 2,909"
+New Delhi,Varanasi,"₹ 12,561"
+New Delhi,Manali,"₹ 17,505"
+New Delhi,Kolkata,"₹ 5,762"
+New Delhi,Chennai,"₹ 6,018"
+New Delhi,Shimla,"₹ 7,140"
+New Delhi,Bengaluru,"₹ 4,823"
+New Delhi,Ooty,NA
+New Delhi,Nainital,NA
+New Delhi,Darjeeling,NA
+New Delhi,Hyderabad,"₹ 4,764"
+New Delhi,Rishikesh,"₹ 3,908"
+New Delhi,Pondicherry,"₹ 7,191"
+New Delhi,Gangtok,NA
+New Delhi,Dehradun,"₹ 3,908"
+New Delhi,Leh,"₹ 1,800"
+New Delhi,Ahmedabad,"₹ 3,351"
+New Delhi,Srinagar,"₹ 8,685"
+New Delhi,Puri,NA
+New Delhi,Dalhousie,NA
+Kolkata,Agra,"₹ 13,734"
+Kolkata,Mumbai,"₹ 7,226"
+Kolkata,Jaipur,"₹ 8,345"
+Kolkata,Varanasi,"₹ 8,543"
+Kolkata,Manali,NA
+Kolkata,New Delhi,"₹ 6,557"
+Kolkata,Chennai,"₹ 7,557"
+Kolkata,Shimla,NA
+Kolkata,Bengaluru,"₹ 6,237"
+Kolkata,Ooty,NA
+Kolkata,Nainital,NA
+Kolkata,Darjeeling,NA
+Kolkata,Hyderabad,"₹ 5,776"
+Kolkata,Rishikesh,"₹ 9,386"
+Kolkata,Pondicherry,"₹ 21,669"
+Kolkata,Gangtok,NA
+Kolkata,Dehradun,"₹ 9,386"
+Kolkata,Leh,"₹ 18,590"
+Kolkata,Ahmedabad,"₹ 5,226"
+Kolkata,Srinagar,"₹ 9,477"
+Kolkata,Puri,NA
+Kolkata,Dalhousie,NA
+Chennai,Agra,"₹ 15,813"
+Chennai,Mumbai,"₹ 5,735"
+Chennai,Jaipur,"₹ 8,169"
+Chennai,Varanasi,"₹ 8,645"
+Chennai,Manali,NA
+Chennai,New Delhi,"₹ 6,024"
+Chennai,Kolkata,"₹ 7,513"
+Chennai,Shimla,NA
+Chennai,Bengaluru,"₹ 1,930"
+Chennai,Ooty,NA
+Chennai,Nainital,NA
+Chennai,Darjeeling,NA
+Chennai,Hyderabad,"₹ 3,532"
+Chennai,Rishikesh,"₹ 9,375"
+Chennai,Pondicherry,NA
+Chennai,Gangtok,NA
+Chennai,Dehradun,"₹ 9,375"
+Chennai,Leh,"₹ 9,928"
+Chennai,Ahmedabad,"₹ 6,512"
+Chennai,Srinagar,"₹ 11,494"
+Chennai,Puri,NA
+Chennai,Dalhousie,NA
+Shimla,Agra,NA
+Shimla,Mumbai,NA
+Shimla,Jaipur,NA
+Shimla,Varanasi,NA
+Shimla,Manali,"₹ 3,563"
+Shimla,New Delhi,"₹ 2,901"
+Shimla,Kolkata,NA
+Shimla,Chennai,NA
+Shimla,Bengaluru,NA
+Shimla,Ooty,NA
+Shimla,Nainital,NA
+Shimla,Darjeeling,NA
+Shimla,Hyderabad,NA
+Shimla,Rishikesh,NA
+Shimla,Pondicherry,NA
+Shimla,Gangtok,NA
+Shimla,Dehradun,NA
+Shimla,Leh,NA
+Shimla,Ahmedabad,NA
+Shimla,Srinagar,NA
+Shimla,Puri,NA
+Shimla,Dalhousie,NA
+Bengaluru,Agra,"₹ 20,065"
+Bengaluru,Mumbai,"₹ 5,616"
+Bengaluru,Jaipur,"₹ 9,532"
+Bengaluru,Varanasi,"₹ 8,419"
+Bengaluru,Manali,NA
+Bengaluru,New Delhi,"₹ 7,141"
+Bengaluru,Kolkata,"₹ 7,579"
+Bengaluru,Chennai,"₹ 3,368"
+Bengaluru,Shimla,NA
+Bengaluru,Ooty,NA
+Bengaluru,Nainital,NA
+Bengaluru,Darjeeling,NA
+Bengaluru,Hyderabad,"₹ 4,429"
+Bengaluru,Rishikesh,"₹ 8,866"
+Bengaluru,Pondicherry,"₹ 13,765"
+Bengaluru,Gangtok,NA
+Bengaluru,Dehradun,"₹ 8,866"
+Bengaluru,Leh,"₹ 13,291"
+Bengaluru,Ahmedabad,"₹ 8,178"
+Bengaluru,Srinagar,"₹ 13,113"
+Bengaluru,Puri,NA
+Bengaluru,Dalhousie,NA
+Nainital,Agra,NA
+Nainital,Mumbai,NA
+Nainital,Jaipur,NA
+Nainital,Varanasi,NA
+Nainital,Manali,NA
+Nainital,New Delhi,NA
+Nainital,Kolkata,NA
+Nainital,Chennai,NA
+Nainital,Shimla,NA
+Nainital,Bengaluru,NA
+Nainital,Ooty,NA
+Nainital,Darjeeling,NA
+Nainital,Hyderabad,NA
+Nainital,Rishikesh,NA
+Nainital,Pondicherry,NA
+Nainital,Gangtok,NA
+Nainital,Dehradun,NA
+Nainital,Leh,NA
+Nainital,Ahmedabad,"₹ 4,647"
+Nainital,Srinagar,NA
+Nainital,Puri,NA
+Nainital,Dalhousie,NA
+Darjeeling,Agra,NA
+Darjeeling,Mumbai,NA
+Darjeeling,Jaipur,NA
+Darjeeling,Varanasi,NA
+Darjeeling,Manali,NA
+Darjeeling,New Delhi,NA
+Darjeeling,Kolkata,NA
+Darjeeling,Chennai,NA
+Darjeeling,Shimla,NA
+Darjeeling,Bengaluru,NA
+Darjeeling,Ooty,NA
+Darjeeling,Nainital,NA
+Darjeeling,Hyderabad,NA
+Darjeeling,Rishikesh,NA
+Darjeeling,Pondicherry,NA
+Darjeeling,Gangtok,NA
+Darjeeling,Dehradun,NA
+Darjeeling,Leh,NA
+Darjeeling,Ahmedabad,NA
+Darjeeling,Srinagar,NA
+Darjeeling,Puri,NA
+Darjeeling,Dalhousie,NA
+Hyderabad,Agra,"₹ 16,639"
+Hyderabad,Mumbai,"₹ 4,258"
+Hyderabad,Jaipur,"₹ 9,150"
+Hyderabad,Varanasi,"₹ 9,411"
+Hyderabad,Manali,"₹ 18,937"
+Hyderabad,New Delhi,"₹ 6,262"
+Hyderabad,Kolkata,"₹ 7,286"
+Hyderabad,Chennai,"₹ 4,105"
+Hyderabad,Shimla,NA
+Hyderabad,Bengaluru,"₹ 2,493"
+Hyderabad,Ooty,NA
+Hyderabad,Nainital,NA
+Hyderabad,Darjeeling,NA
+Hyderabad,Rishikesh,"₹ 6,750"
+Hyderabad,Pondicherry,"₹ 7,350"
+Hyderabad,Gangtok,NA
+Hyderabad,Dehradun,"₹ 6,750"
+Hyderabad,Leh,"₹ 13,472"
+Hyderabad,Ahmedabad,"₹ 6,793"
+Hyderabad,Srinagar,"₹ 12,678"
+Hyderabad,Puri,NA
+Hyderabad,Dalhousie,NA
+Rishikesh,Agra,NA
+Rishikesh,Mumbai,"₹ 5,199"
+Rishikesh,Jaipur,"₹ 6,188"
+Rishikesh,Varanasi,"₹ 8,497"
+Rishikesh,Manali,NA
+Rishikesh,New Delhi,"₹ 3,458"
+Rishikesh,Kolkata,"₹ 9,226"
+Rishikesh,Chennai,"₹ 8,061"
+Rishikesh,Shimla,NA
+Rishikesh,Bengaluru,"₹ 7,368"
+Rishikesh,Ooty,NA
+Rishikesh,Nainital,NA
+Rishikesh,Darjeeling,NA
+Rishikesh,Hyderabad,"₹ 6,750"
+Rishikesh,Pondicherry,NA
+Rishikesh,Gangtok,NA
+Rishikesh,Dehradun,NA
+Rishikesh,Leh,"₹ 16,247"
+Rishikesh,Ahmedabad,"₹ 5,611"
+Rishikesh,Srinagar,"₹ 12,143"
+Rishikesh,Puri,NA
+Rishikesh,Dalhousie,NA
+Pondicherry,Agra,NA
+Pondicherry,Mumbai,"₹ 10,482"
+Pondicherry,Jaipur,NA
+Pondicherry,Varanasi,NA
+Pondicherry,Manali,NA
+Pondicherry,New Delhi,"₹ 11,262"
+Pondicherry,Kolkata,"₹ 12,009"
+Pondicherry,Chennai,NA
+Pondicherry,Shimla,NA
+Pondicherry,Bengaluru,"₹ 4,238"
+Pondicherry,Ooty,NA
+Pondicherry,Nainital,NA
+Pondicherry,Darjeeling,NA
+Pondicherry,Hyderabad,"₹ 6,826"
+Pondicherry,Rishikesh,NA
+Pondicherry,Gangtok,NA
+Pondicherry,Dehradun,NA
+Pondicherry,Leh,NA
+Pondicherry,Ahmedabad,NA
+Pondicherry,Srinagar,NA
+Pondicherry,Puri,NA
+Pondicherry,Dalhousie,NA
+Gangtok,Agra,NA
+Gangtok,Mumbai,NA
+Gangtok,Jaipur,NA
+Gangtok,Varanasi,NA
+Gangtok,Manali,NA
+Gangtok,New Delhi,NA
+Gangtok,Kolkata,NA
+Gangtok,Chennai,NA
+Gangtok,Shimla,NA
+Gangtok,Bengaluru,NA
+Gangtok,Ooty,NA
+Gangtok,Nainital,NA
+Gangtok,Darjeeling,NA
+Gangtok,Hyderabad,NA
+Gangtok,Rishikesh,NA
+Gangtok,Pondicherry,NA
+Gangtok,Dehradun,NA
+Gangtok,Leh,NA
+Gangtok,Ahmedabad,NA
+Gangtok,Srinagar,NA
+Gangtok,Puri,NA
+Gangtok,Dalhousie,NA
+Dehradun,Agra,NA
+Dehradun,Mumbai,"₹ 5,199"
+Dehradun,Jaipur,"₹ 6,188"
+Dehradun,Varanasi,"₹ 8,497"
+Dehradun,Manali,NA
+Dehradun,New Delhi,"₹ 3,458"
+Dehradun,Kolkata,"₹ 9,226"
+Dehradun,Chennai,"₹ 8,061"
+Dehradun,Shimla,NA
+Dehradun,Bengaluru,"₹ 7,468"
+Dehradun,Ooty,NA
+Dehradun,Nainital,NA
+Dehradun,Darjeeling,NA
+Dehradun,Hyderabad,"₹ 6,750"
+Dehradun,Rishikesh,NA
+Dehradun,Pondicherry,NA
+Dehradun,Gangtok,NA
+Dehradun,Leh,"₹ 16,247"
+Dehradun,Ahmedabad,"₹ 5,611"
+Dehradun,Srinagar,"₹ 12,143"
+Dehradun,Puri,NA
+Dehradun,Dalhousie,NA
+Leh,Agra,NA
+Leh,Mumbai,"₹ 7,091"
+Leh,Jaipur,"₹ 6,321"
+Leh,Varanasi,"₹ 15,136"
+Leh,Manali,NA
+Leh,New Delhi,"₹ 2,890"
+Leh,Kolkata,"₹ 9,251"
+Leh,Chennai,"₹ 8,818"
+Leh,Shimla,NA
+Leh,Bengaluru,"₹ 7,713"
+Leh,Ooty,NA
+Leh,Nainital,NA
+Leh,Darjeeling,NA
+Leh,Hyderabad,"₹ 7,654"
+Leh,Rishikesh,"₹ 5,710"
+Leh,Pondicherry,NA
+Leh,Gangtok,NA
+Leh,Dehradun,"₹ 5,710"
+Leh,Ahmedabad,"₹ 6,642"
+Leh,Srinagar,"₹ 13,885"
+Leh,Puri,NA
+Leh,Dalhousie,NA
+Ahmedabad,Agra,"₹ 7,040"
+Ahmedabad,Mumbai,"₹ 3,283"
+Ahmedabad,Jaipur,"₹ 7,194"
+Ahmedabad,Varanasi,"₹ 4,535"
+Ahmedabad,Manali,NA
+Ahmedabad,New Delhi,"₹ 4,306"
+Ahmedabad,Kolkata,"₹ 8,813"
+Ahmedabad,Chennai,"₹ 4,379"
+Ahmedabad,Shimla,NA
+Ahmedabad,Bengaluru,"₹ 5,009"
+Ahmedabad,Ooty,NA
+Ahmedabad,Nainital,NA
+Ahmedabad,Darjeeling,NA
+Ahmedabad,Hyderabad,"₹ 6,388"
+Ahmedabad,Rishikesh,"₹ 5,586"
+Ahmedabad,Pondicherry,NA
+Ahmedabad,Gangtok,NA
+Ahmedabad,Dehradun,"₹ 5,586"
+Ahmedabad,Leh,"₹ 7,199"
+Ahmedabad,Srinagar,"₹ 12,511"
+Ahmedabad,Puri,NA
+Ahmedabad,Dalhousie,NA
+Srinagar,Agra,NA
+Srinagar,Mumbai,"₹ 7,800"
+Srinagar,Jaipur,"₹ 6,572"
+Srinagar,Varanasi,"₹ 7,382"
+Srinagar,Manali,NA
+Srinagar,New Delhi,"₹ 5,421"
+Srinagar,Kolkata,"₹ 8,802"
+Srinagar,Chennai,"₹ 9,677"
+Srinagar,Shimla,NA
+Srinagar,Bengaluru,"₹ 9,213"
+Srinagar,Ooty,NA
+Srinagar,Nainital,NA
+Srinagar,Darjeeling,NA
+Srinagar,Hyderabad,"₹ 9,749"
+Srinagar,Rishikesh,"₹ 6,998"
+Srinagar,Pondicherry,NA
+Srinagar,Gangtok,NA
+Srinagar,Dehradun,"₹ 6,998"
+Srinagar,Leh,"₹ 22,461"
+Srinagar,Ahmedabad,"₹ 7,396"
+Srinagar,Puri,NA
+Srinagar,Dalhousie,NA
+

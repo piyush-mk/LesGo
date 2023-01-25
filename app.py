@@ -19,9 +19,9 @@ def get_city(df, placetype):
     return df.iloc[0]['location']
 
 # knn model to recommend the top 5 hotels based on the location, budget and the rating of the hotel
-def hotel_knn_model(df, city, budget):
+def hotel_knn_model(df, city, h_budget):
     df = df[df['location'] == city]
-    df = df[df['H_price'] <= (budget*0.85)]
+    df = df[df['H_price'] <= (h_budget)]
     df = df.sort_values(by='H_price', ascending=False)
     df = df[['H_name', 'H_price', 'H_rating']]
     df = df.drop_duplicates()
@@ -44,13 +44,26 @@ def page():
             placetype=st.selectbox('Select the type of attractions you want to see',df['P_type'].sort_values().unique())
             budget=st.slider('Select your Total budget', 0, 150000, 500)
             submit_button=st.form_submit_button(label='Submit')
+            days=st.slider('Select the duration of travel', 0, 15, 5)
         if submit_button:
-            st.write("### We reccomend you visit:")
+            flightcost=budget*0.4
+            r_budget=budget*0.1
+            h_budget=(budget-flightcost-r_budget)/days
+            
+            st.write("### We reccomend you visit -")
             #display the city name in stylized format using markdown big font and bold text with red color
             city=get_city(df, placetype)
             st.markdown(f"""<span style="font-size: 40px; font-weight: bold; color: #eb4034;">{city}</span>""", unsafe_allow_html=True)
+            st.write("### Your budget has been divided as follows:")
+            st.markdown(f"""<span style="font-size: 20px; font-weight: bold; color: #ffffff;">Flight Budget: </span>"""f"""<span style="font-size: 20px; font-weight: bold; color: #ffd000;">Rs. {flightcost}</span>""", unsafe_allow_html=True)
+            st.markdown(f"""<span style="font-size: 20px; font-weight: bold; color: #ffffff;">Hotel Budget: </span>"""f"""<span style="font-size: 20px; font-weight: bold; color: #ffd000;">  Rs. {h_budget}</span>""", unsafe_allow_html=True)
+            st.markdown(f"""<span style="font-size: 20px; font-weight: bold; color: #ffffff;">Food Budget: </span>"""f"""<span style="font-size: 20px; font-weight: bold; color: #ffd000;"> Rs. {r_budget}</span>""", unsafe_allow_html=True)
+            
+            
+            
             st.write("### Here are the top 5 hotels we recommend:")
-            df2=hotel_knn_model(df, city, budget)
+            df2=hotel_knn_model(df, city, h_budget)
+            df2.columns=['Hotel Name', 'Price(/day)', 'Rating']
             st.table(df2)
         else:
             st.write("## Select a type of attraction to get started")
