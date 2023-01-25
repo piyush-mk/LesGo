@@ -156,7 +156,7 @@ def page():
             h_budget=(budget-flightcost-r_budget)/days
             h_budget=round(h_budget, 2)
             
-            st.write("### We reccomend you visit -")
+            st.write("### We recommend you visit -")
             #display the city name in stylized format using markdown big font and bold text with red color
             city=get_city(df, placetype)
             st.markdown(f"""<span style="font-size: 40px; font-weight: bold; color: #eb4034;">{city}</span>""", unsafe_allow_html=True)
@@ -186,6 +186,7 @@ def page():
             rest['Price(/meal)']=rest['Price(/meal)'].apply(lambda x: round(x, 2))
             st.table(rest)
             st.write("### Here is your travel itinerary:")
+            st.write("#### Note: The itinerary is based on the attractions you selected and the budget you have provided")
             places= places_to_visit(place_df, city)
             # st.write(places)
             hotel_name = hotel_knn_model(df, city, h_budget,1)
@@ -206,6 +207,6 @@ def page():
         else:
             st.write("## Select a type of attraction to get started")
     except:
-        st.write("## Wew")
+        st.write("## Travel not possible with the given constraints, please try again with increased budget or reduced duration")
 
 page()
