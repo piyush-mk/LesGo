@@ -29,10 +29,34 @@ def hotel_knn_model(df, city, h_budget):
     df = df.iloc[:3]
     return df
     
-#dictionary for each day of the trip with hours of the day as keys and the places to visit and restaurants as alternating values
+#dictionary for each day of the trip with hours of the day as keys and the activities/restaurants as values
 def itinerary(df, city, r_budget, days):
     itinerary = {}
-    
+    df = df[df['location'] == city]
+    df = df.sort_values(by='R_price', ascending=False)
+    df = df[['R_name', 'R_price', 'R_rating']]
+    df = df.drop_duplicates()
+    df = df.reset_index(drop=True)
+    #get the total number of restaurants in the city
+    total_restaurants = df.shape[0]
+    #get the number of restaurants to be visited in a day
+    restaurants_per_day = int(total_restaurants / days)
+    #get the total budget for restaurants in a day
+    r_budget_per_day = r_budget / days
+    #get the number of restaurants to be visited in a day based on the budget constraint
+    restaurants_per_day = int(r_budget_per_day / df.iloc[0]['R_price'])
+    #get the number of restaurants to be visited in a day based on the total number of restaurants in the city
+    restaurants_per_day = min(restaurants_per_day, total_restaurants)
+    #get the list of restaurants to be visited in a day
+    restaurants_list = df.iloc[:restaurants_per_day]['R_name'].to_list()
+    #get the list of timings for the restaurants
+    restaurants_timings = ['12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm']
+    #get the timings for the restaurants based on the number of restaurants to be visited in a day
+    restaurants_timings = restaurants_timings[:restaurants_per_day]
+    #get the dictionary for the day with the timings as keys and the restaurants as values
+    for i in range(len(restaurants_timings)):
+        itinerary[restaurants_timings[i]] = restaurants_list[i]
+    return itinerary
     
 def page():
     st.markdown("""
@@ -72,7 +96,12 @@ def page():
             st.table(df2)
             
             st.write("### Here is your itinerary for the day:")
-            
+            itinerary_dict=itinerary(df, city, r_budget, days)
+            df6=pd.DataFrame([itinerary_dict])
+            #transpose the dataframe to get the timings as columns and the restaurants as rows
+            df6=df6.T
+            df6.columns=['Restaurant Name']
+            st.write(df6)
             
         else:
             st.write("## Select a type of attraction to get started")
