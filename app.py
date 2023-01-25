@@ -7,8 +7,54 @@ import streamlit.components.v1 as components
 # streamlit app to create a travel itinerary based on location and budget constraints
 # data
 def load_data():
-    df1 = pd.read_csv('data/joined_data.csv')
-    return df1
+    df = pd.read_csv('data/joined_data.csv')
+    return df
+df=load_data()
+#return one city name based on the highest count of the particular type of attraction in the city from the placetype csv
+    
+def get_city(df, placetype):
+    df = df[df['P_type'] == placetype]
+    df = df.groupby('location').count().reset_index()
+    df = df.sort_values(by='P_type', ascending=False)
+    return df.iloc[0]['location']
 
-#calculate the number of type of attraction for each city from the places.csv file
-def
+# knn model to recommend the top 5 hotels based on the location, budget and the rating of the hotel
+def hotel_knn_model(df, city, budget):
+    df = df[df['location'] == city]
+    df = df[df['H_price'] <= (budget*0.85)]
+    df = df.sort_values(by='H_price', ascending=False)
+    df = df[['H_name', 'H_price', 'H_rating']]
+    df = df.drop_duplicates()
+    df = df.reset_index(drop=True)
+    df = df.iloc[:5]
+    return df
+    
+
+def page():
+    st.markdown("""
+    <style>
+    .css-15zrgzn {display: none}
+    </style>
+    """, unsafe_allow_html=True)
+    title=st.title("LesGo | Travel itinerary maker")
+    st.write("## Create your travel itinerary based on location and budget constraints")
+    #catch nan error for the form
+    try:
+        with st.form(key='myform'):
+            placetype=st.selectbox('Select the type of attractions you want to see',df['P_type'].sort_values().unique())
+            budget=st.slider('Select your Total budget', 0, 150000, 500)
+            submit_button=st.form_submit_button(label='Submit')
+        if submit_button:
+            st.write("### We reccomend you visit:")
+            #display the city name in stylized format using markdown big font and bold text with red color
+            city=get_city(df, placetype)
+            st.markdown(f"""<span style="font-size: 40px; font-weight: bold; color: #eb4034;">{city}</span>""", unsafe_allow_html=True)
+            st.write("### Here are the top 5 hotels we recommend:")
+            df2=hotel_knn_model(df, city, budget)
+            st.table(df2)
+        else:
+            st.write("## Select a type of attraction to get started")
+    except:
+        st.write("## Wew")
+
+page()
