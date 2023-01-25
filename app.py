@@ -29,7 +29,10 @@ def hotel_knn_model(df, city, h_budget):
     df = df.iloc[:3]
     return df
     
-#    
+#dictionary for each day of the trip with hours of the day as keys and the places to visit and restaurants as alternating values
+def itinerary(df, city, r_budget, days):
+    itinerary = {}
+    
     
 def page():
     st.markdown("""
@@ -48,8 +51,8 @@ def page():
             submit_button=st.form_submit_button(label='Submit')
             days=st.slider('Select the duration of travel', 0, 15, 5)
         if submit_button:
-            flightcost=budget*0.3
-            r_budget=budget*0.1
+            flightcost=budget*0.25
+            r_budget=budget*0.4
             h_budget=(budget-flightcost-r_budget)/days
             
             st.write("### We reccomend you visit -")
@@ -67,6 +70,10 @@ def page():
             df2=hotel_knn_model(df, city, h_budget)
             df2.columns=['Hotel Name', 'Price(/day)', 'Rating']
             st.table(df2)
+            
+            st.write("### Here is your itinerary for the day:")
+            
+            
         else:
             st.write("## Select a type of attraction to get started")
     except:
