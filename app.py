@@ -69,11 +69,11 @@ def page():
     #catch nan error for the form
     try:
         with st.form(key='myform'):
-            source_city=st.selectbox('Select your source city',df['location'].sort_values().unique())
-            placetype=st.selectbox('Select the type of attractions you want to see',df['P_type'].sort_values().unique())
+            source_city=st.selectbox('Select the city you want to travel from -',df['location'].sort_values().unique())
+            placetype=st.selectbox('Select the type of attractions you want to see -',df['P_type'].sort_values().unique())
             budget=st.slider('Select your Total budget', 0, 150000, 500)
             submit_button=st.form_submit_button(label='Submit')
-            days=st.slider('Select the duration of travel', 0, 15, 5)
+            days=st.slider('Select the duration of travel (days)', 0, 15, 5)
         if submit_button:
             flightcost=budget*0.25
             r_budget=budget*0.4
