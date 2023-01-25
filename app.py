@@ -10,6 +10,86 @@ def load_data():
     df = pd.read_csv('data/joined_data.csv')
     return df
 df=load_data()
+place_df = pd.read_csv('data/places_cleaned.csv')
+def places_to_visit(df,city):
+    attraction_list=[]
+    df = df[df['location'] == city]
+    df = df[['P_name', 'P_type']]
+    df = df.drop_duplicates()
+    df = df.reset_index(drop=True)
+    for i in range(len(df)):
+        attraction_list.append(df.iloc[i][0] + ' - ' + df.iloc[i][1])
+    return attraction_list
+# Function for itinery:
+def generate_itinery(df, city, days, places, hotel_name):
+    itenary_matrix = {}
+    d = int(days)
+    x = 0
+    if d<=4:
+        for j in range(d):
+            itenary_matrix[j] = {}
+            for w in range(24):
+                if(w<12):
+                        i = str(w)+':00 a.m.'
+                else:
+                        i = str(w)+':00 p.m.'
+                if(w==9):
+                    itenary_matrix[j][i]="Breakfast"
+                elif w<9:
+                    itenary_matrix[j][i]=hotel_name
+                elif(w<12):
+                    itenary_matrix[j][i]=places[x]
+                elif(w==12):
+                    itenary_matrix[j][i]=places[x]
+                    x+=1
+                elif(w<14):
+                    itenary_matrix[j][i]=places[x]
+                elif w==14:
+                    x+=1
+                    itenary_matrix[j][i]="Lunch"
+                elif w<17:
+                    itenary_matrix[j][i]=places[x]
+                elif w==17:
+                    x+=1
+                    itenary_matrix[j][i]="Snacks"
+                elif w==20:
+                    itenary_matrix[j][i]="Dinner"
+                else:
+                    itenary_matrix[j][i]=hotel_name
+    elif d<=6:
+            for j in range(d):
+                itenary_matrix[j] = {}
+                for w in range(24):
+                    if(w<12):
+                        i = str(w)+':00 a.m.'
+                    else:
+                        i = str(w)+':00 p.m.'
+
+                    if(w==9):
+                        itenary_matrix[j][i]="Breakfast"
+                    elif w<9:
+                        itenary_matrix[j][i]=hotel_name
+                    elif(w<12):
+                        itenary_matrix[j][i]=places[x]
+                    elif(w==12):
+                        itenary_matrix[j][i]=places[x]
+                    elif(w<14):
+                        itenary_matrix[j][i]=places[x]
+                    elif w==14:
+                        x+=1
+                        itenary_matrix[j][i]="Lunch"
+                    elif w<18:
+                        itenary_matrix[j][i]=places[x]
+                    elif w==18:
+                        x+=1
+                        itenary_matrix[j][i]="Snacks"
+                    elif w==20:
+                        itenary_matrix[j][i]="Dinner"
+                    else:
+                        itenary_matrix[j][i]=hotel_name
+
+    return itenary_matrix
+
 
 #use knn to display 3 restaurants for each day of the based on the budget and city selected
 def get_restaurants(df, city, r_budget):
@@ -27,7 +107,7 @@ def get_city(df, placetype):
     df = df.sort_values(by='P_type', ascending=False)
     return df.iloc[0]['location']
 
-def hotel_knn_model(df, city, h_budget):
+def hotel_knn_model(df, city, h_budget,i):
     df = df[df['location'] == city]
     df = df[df['H_price'] <= (h_budget)]
     df = df.sort_values(by='H_price', ascending=False)
@@ -35,7 +115,10 @@ def hotel_knn_model(df, city, h_budget):
     df = df.drop_duplicates()
     df = df.reset_index(drop=True)
     df = df.iloc[:3]
-    return df
+    if i==0:
+        return df
+    else:
+        return df.iloc[0]['H_name']
     
 #use clustering to get the top 5 attractions in the city based on the type of attraction and rating
 def get_attractions(df, city):
@@ -85,7 +168,7 @@ def page():
             
             
             st.write("### Here are the top 3 hotels we recommend:")
-            df2=hotel_knn_model(df, city, h_budget)
+            df2=hotel_knn_model(df, city, h_budget,0)
             df2.columns=['Hotel Name', 'Price(/day)', 'Rating']
             #round the and rating to 2 decimal places
             df2['Rating']=df2['Rating'].apply(lambda x: round(x, 2))
@@ -102,6 +185,22 @@ def page():
             rest.columns=['Restraunt Name', 'Price(/meal)', 'Rating']
             rest['Price(/meal)']=rest['Price(/meal)'].apply(lambda x: round(x, 2))
             st.table(rest)
+            st.write("### Here is your travel itinerary:")
+            places= places_to_visit(place_df, city)
+            # st.write(places)
+            hotel_name = hotel_knn_model(df, city, h_budget,1)
+
+            itinery = generate_itinery(df, city, days, places, hotel_name)
+            new_ite= pd.DataFrame.from_dict(itinery)
+
+            d = int(days)
+            new_col = {}
+            for i in range(days):
+                new_col[i]='Day'+str(i+1)
+            new_ite.rename(columns = new_col, inplace = True)
+            df.rename(columns={ df.columns[1]: "your value" }, inplace = True)
+            new_ite.drop_duplicates()
+            st.table(new_ite)
             
             
         else:
