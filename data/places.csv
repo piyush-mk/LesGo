@@ -1,0 +1,277 @@
+name,type,rating,location
+1. Taj Mahal,Historic Sites   Points of Interest & Landmarks,5.0 of 5 bubbles,Agra
+2. Agra Fort,Points of Interest & Landmarks   Architectural Buildings,4.5 of 5 bubbles,Agra
+3. Tomb of Itimad-ud-Daulah,Points of Interest & Landmarks   Architectural Buildings,4.5 of 5 bubbles,Agra
+4. Wildlife SOS,Nature & Wildlife Areas,5.0 of 5 bubbles,Agra
+5. Mother Teresa's Missionaries of Charity,Missions Religious Sites,4.5 of 5 bubbles,Agra
+6. Mehtab Bagh,Parks,4.0 of 5 bubbles,Agra
+7. Sheesh Mahal,Architectural Buildings,4.5 of 5 bubbles,Agra
+8. Agra Art Gallery,Art Galleries,4.5 of 5 bubbles,Agra
+9. Gurudwara Guru ka Tal,Religious Sites,4.5 of 5 bubbles,Agra
+10. Jama Masjid,Architectural Buildings   Religious Sites,4.0 of 5 bubbles,Agra
+11. Kalakriti Cultural & Convention Center,Convention Centres,4.0 of 5 bubbles,Agra
+12. Anguri Bagh,Gardens,4.0 of 5 bubbles,Agra
+1.Gateway of India,Points of Interest & Landmarks   Monuments & Statues,4.0 of 5 bubbles,Mumbai
+2.Marine Drive,Points of Interest & Landmarks   Scenic Drives,4.5 of 5 bubbles,Mumbai
+3.Bandra-Worli Sea Link,Bridges,4.5 of 5 bubbles,Mumbai
+4.Shree Siddhivinayak,Religious Sites,4.5 of 5 bubbles,Mumbai
+5.Chhatrapati Shivaji Terminus,Historic Sites   Architectural Buildings,4.5 of 5 bubbles,Mumbai
+6.KidZania Mumbai,Amusement & Theme Parks,4.5 of 5 bubbles,Mumbai
+7.Colaba,Neighbourhoods,4.5 of 5 bubbles,Mumbai
+8.Nariman Point,Neighbourhoods,4.5 of 5 bubbles,Mumbai
+9.Elephanta Caves,Points of Interest & Landmarks,4.0 of 5 bubbles,Mumbai
+10.Mani Bhavan Gandhi Museum,History Museums,4.5 of 5 bubbles,Mumbai
+11.Global Vipassana Pagoda,Monuments & Statues,4.5 of 5 bubbles,Mumbai
+12.Essel World,Amusement & Theme Parks,4.0 of 5 bubbles,Mumbai
+1. Amber Palace,Historic Sites   Architectural Buildings,4.5 of 5 bubbles,Jaipur
+2. Jantar Mantar - Jaipur,Observatories & Planetariums,4.5 of 5 bubbles,Jaipur
+3. Hawa Mahal - Palace of Wind,Points of Interest & Landmarks   Architectural Buildings,4.0 of 5 bubbles,Jaipur
+4. Sheesh Mahal (Hall of Mirrors),Architectural Buildings,4.5 of 5 bubbles,Jaipur
+5. City Palace of Jaipur,Points of Interest & Landmarks   History Museums,4.0 of 5 bubbles,Jaipur
+6. Birla Mandir Temple,Points of Interest & Landmarks   Architectural Buildings,4.5 of 5 bubbles,Jaipur
+7. Elefriend,Nature & Wildlife Areas,5.0 of 5 bubbles,Jaipur
+8. EleSafari,Nature & Wildlife Areas,5.0 of 5 bubbles,Jaipur
+9. Nahargarh Fort,Military Museums   Historic Sites,4.0 of 5 bubbles,Jaipur
+10. Elefun,Nature & Wildlife Areas,5.0 of 5 bubbles,Jaipur
+11. Albert Hall Museum,Speciality Museums,4.0 of 5 bubbles,Jaipur
+12. Mukesh Art Gallery,Art Galleries   Art Museums,5.0 of 5 bubbles,Jaipur
+1.Ganges River,Bodies of Water,4.5 of 5 bubbles,Varanasi
+2.Sarnath,Points of Interest & Landmarks   Religious Sites,4.5 of 5 bubbles,Varanasi
+3.Dasaswamedh Ghat,Points of Interest & Landmarks,4.5 of 5 bubbles,Varanasi
+4.Banaras Ghats,Points of Interest & Landmarks   Religious Sites,4.5 of 5 bubbles,Varanasi
+5.Assi Ghat,Points of Interest & Landmarks,4.5 of 5 bubbles,Varanasi
+6.Shri Kashi Vishwanath Temple (Golden Temple),Architectural Buildings   Religious Sites,4.0 of 5 bubbles,Varanasi
+7.Ruchika Art Gallery,Art Galleries,5.0 of 5 bubbles,Varanasi
+8.Ganga Aarti,Points of Interest & Landmarks,4.5 of 5 bubbles,Varanasi
+9.Manikarnika Ghat,Points of Interest & Landmarks,4.5 of 5 bubbles,Varanasi
+10.New Vishwanath Temple,Religious Sites,4.5 of 5 bubbles,Varanasi
+11.Sunrise Yoga with Ayush - Varanasi,Sports Camps & Clinics,5.0 of 5 bubbles,Varanasi
+12.Sankat Mochan Temple,Religious Sites,4.5 of 5 bubbles,Varanasi
+1.Beas River,Bodies of Water,4.5 of 5 bubbles,Manali
+2.Hidimba Devi Temple,Religious Sites,4.5 of 5 bubbles,Manali
+3.Manikaran Gurudwara,Religious Sites,4.5 of 5 bubbles,Manali
+4.Solang Valley,Valleys,4.0 of 5 bubbles,Manali
+5.Jogini Waterfall,Waterfalls,4.5 of 5 bubbles,Manali
+6.Gulaba,Lookouts,4.0 of 5 bubbles,Manali
+7.Solang Nullah,Ski & Snowboard Areas,4.0 of 5 bubbles,Manali
+8.Bhrigu Lake,Bodies of Water,4.5 of 5 bubbles,Manali
+9.Beas Kund,Bodies of Water,4.5 of 5 bubbles,Manali
+10.International Roerich Memorial Trust,Speciality Museums   History Museums,4.5 of 5 bubbles,Manali
+11.Vashisht Baths,Hot Springs & Geysers,4.0 of 5 bubbles,Manali
+12.Jana Waterfall,Waterfalls,4.0 of 5 bubbles,Manali
+1.Qutub Minar,Points of Interest & Landmarks   Architectural Buildings,4.5 of 5 bubbles,New Delhi
+2.Swaminarayan Akshardham,Religious Sites   Gardens,4.5 of 5 bubbles,New Delhi
+3.Gurudwara Bangla Sahib,Historic Sites   Religious Sites,4.5 of 5 bubbles,New Delhi
+4.Humayun's Tomb,Architectural Buildings   Religious Sites,4.5 of 5 bubbles,New Delhi
+5.India Gate,Historic Sites   Points of Interest & Landmarks,4.0 of 5 bubbles,New Delhi
+6.Lodhi Garden,Gardens,4.5 of 5 bubbles,New Delhi
+7.Lotus Temple,Religious Sites,4.0 of 5 bubbles,New Delhi
+8.Red Fort,Historic Sites   Points of Interest & Landmarks,4.0 of 5 bubbles,New Delhi
+9.Chandni Chowk,Flea & Street Markets,4.0 of 5 bubbles,New Delhi
+10.Hauz Khas Village,Neighbourhoods,4.5 of 5 bubbles,New Delhi
+11.Rashtrapati Bhavan,Architectural Buildings,4.5 of 5 bubbles,New Delhi
+12.Delhi Airport Metro Express,Public Transportation Systems,4.5 of 5 bubbles,New Delhi
+1. Victoria Memorial Hall,Speciality Museums,4.5 of 5 bubbles,Kolkata
+2. Dakshineswar Kali Temple,Points of Interest & Landmarks   Religious Sites,4.5 of 5 bubbles,Kolkata
+3. Howrah Bridge,Bridges,4.5 of 5 bubbles,Kolkata
+4. Mother House,Points of Interest & Landmarks,4.5 of 5 bubbles,Kolkata
+5. Park Street,Points of Interest & Landmarks,4.5 of 5 bubbles,Kolkata
+6. Eden Gardens,Arenas & Stadiums,4.5 of 5 bubbles,Kolkata
+7. Eco Tourism Park,Parks,4.5 of 5 bubbles,Kolkata
+8. College Street (Boi Para),Points of Interest & Landmarks,4.5 of 5 bubbles,Kolkata
+9. Indian Museum (Jadu Ghar),Natural History Museums   History Museums,4.0 of 5 bubbles,Kolkata
+10. South Park Street Cemetery,Cemeteries,4.5 of 5 bubbles,Kolkata
+11. Science City,Amusement & Theme Parks   Science Museums,4.0 of 5 bubbles,Kolkata
+12. St. Paul's Cathedral,Churches & Cathedrals,4.0 of 5 bubbles,Kolkata
+1. Kapaleeshwarar Temple,Religious Sites,4.5 of 5 bubbles,Chennai
+2. VGP Snow Kingdom,Amusement & Theme Parks,5.0 of 5 bubbles,Chennai
+3. Marina Beach,Beaches,4.0 of 5 bubbles,Chennai
+4. San Thome Church,Architectural Buildings   Religious Sites,4.5 of 5 bubbles,Chennai
+5. Besant Nagar Beach,Beaches,4.0 of 5 bubbles,Chennai
+6. Express Avenue Mall,Shopping Malls,4.0 of 5 bubbles,Chennai
+7. Mylapore,Neighbourhoods,4.5 of 5 bubbles,Chennai
+8. Parthasarathy Temple,Religious Sites,4.5 of 5 bubbles,Chennai
+9. VGP Marine Kingdom,Aquariums,4.5 of 5 bubbles,Chennai
+10. Shirdi Sai Baba Temple,Religious Sites,4.5 of 5 bubbles,Chennai
+11. Ramakrishna Temple,Religious Sites,4.5 of 5 bubbles,Chennai
+12. Chennai Central Railway Station,Points of Interest & Landmarks   Architectural Buildings,4.0 of 5 bubbles,Chennai
+1.Jakhu Temple,Religious Sites,4.5 of 5 bubbles,Shimla
+2.The Mall,Points of Interest & Landmarks,4.0 of 5 bubbles,Shimla
+3.Viceregal Lodge,Architectural Buildings,4.5 of 5 bubbles,Shimla
+4.Indian Institute of Advanced Study,Educational sites,4.5 of 5 bubbles,Shimla
+5.The Ridge,Points of Interest & Landmarks,4.5 of 5 bubbles,Shimla
+6.Annandale Ground,Parks,4.5 of 5 bubbles,Shimla
+7.Kali Bari Temple,Religious Sites,4.5 of 5 bubbles,Shimla
+8.Christ Church,Churches & Cathedrals,4.0 of 5 bubbles,Shimla
+9.Green Valley,Valleys,4.0 of 5 bubbles,Shimla
+10.Gaiety Heritage Cultural Complex,Educational sites,4.5 of 5 bubbles,Shimla
+11.Jakhoo Hill,Mountains,4.5 of 5 bubbles,Shimla
+12.Shimla Heritage Walk,Scenic Walking Areas,4.5 of 5 bubbles,Shimla
+1.ISKCON Temple Bangalore,Religious Sites,4.5 of 5 bubbles,Bengaluru
+2.Lalbagh Botanical Garden,Gardens,4.0 of 5 bubbles,Bengaluru
+3.Wonderla Amusement Park,Amusement & Theme Parks,4.5 of 5 bubbles,Bengaluru
+4.UB City,Shopping Malls,4.5 of 5 bubbles,Bengaluru
+5.Cubbon Park,Parks,4.0 of 5 bubbles,Bengaluru
+6.Bannerghatta National Park,Nature & Wildlife Areas,4.0 of 5 bubbles,Bengaluru
+7.Visvesvaraya Industrial and Technological Museum,Science Museums,4.5 of 5 bubbles,Bengaluru
+8.Mahatma Gandhi (MG) Road,Points of Interest & Landmarks,4.0 of 5 bubbles,Bengaluru
+9.Sree Surya Narayana Swamy Temple,Religious Sites,4.5 of 5 bubbles,Bengaluru
+10.Ragigudda Sri Prasanna Anjaneyaswamy Temple,Religious Sites,4.5 of 5 bubbles,Bengaluru
+11.Commercial Street,Neighbourhoods,4.0 of 5 bubbles,Bengaluru
+12.Bull Temple,Architectural Buildings   Religious Sites,4.0 of 5 bubbles,Bengaluru
+1. Pykara Lake,Bodies of Water,4.0 of 5 bubbles,Ooty
+2. Doddabetta Peak,Mountains,4.0 of 5 bubbles,Ooty
+3. Avalanche Lake,Bodies of Water,4.5 of 5 bubbles,Ooty
+4. Ooty Lake,Bodies of Water,3.5 of 5 bubbles,Ooty
+5. Pykara Falls,Waterfalls,4.0 of 5 bubbles,Ooty
+6. Upper Bhavani Lake,Bodies of Water,4.5 of 5 bubbles,Ooty
+7. Government Rose Garden,Gardens,4.0 of 5 bubbles,Ooty
+8. Emerald Lake,Bodies of Water,4.5 of 5 bubbles,Ooty
+9. Wax Studio,Speciality Museums,4.5 of 5 bubbles,Ooty
+10. Thunder World,Amusement & Theme Parks,4.0 of 5 bubbles,Ooty
+11. Mudumalai National Park,National Parks,4.0 of 5 bubbles,Ooty
+12. Karnataka Siri Horticulture Garden,Gardens,4.5 of 5 bubbles,Ooty
+1. Nainital Lake,Bodies of Water,4.5 of 5 bubbles,Nainital
+2. Goddess Naina Devi,Religious Sites,4.5 of 5 bubbles,Nainital
+3. Mukteshwar Temple,Religious Sites,4.5 of 5 bubbles,Nainital
+4. Naina Peak,Mountains,4.5 of 5 bubbles,Nainital
+5. Eco Cave Gardens,Parks   Gardens,4.0 of 5 bubbles,Nainital
+6. Pangot and Kilbury Bird Sanctuary,Nature & Wildlife Areas,4.5 of 5 bubbles,Nainital
+7. Governor's House Raj Bhawan,Historic Sites   Architectural Buildings,4.0 of 5 bubbles,Nainital
+8. High Altitude Zoo,Zoos,4.0 of 5 bubbles,Nainital
+9. Hanuman Garhi Temple,Religious Sites,4.5 of 5 bubbles,Nainital
+10. Tiffin Top (Dorothy's Seat),Monuments & Statues   Geologic Formations,4.0 of 5 bubbles,Nainital
+11. Snow View Point,Lookouts,4.0 of 5 bubbles,Nainital
+12. Astronomical Observatory,Observatories & Planetariums,4.5 of 5 bubbles,Nainital
+1.Kanchenjunga Mountain,Mountains,4.5 of 5 bubbles,Darjeeling
+2.Padmaja Naidu Himalayan Zoological Park,Zoos,4.0 of 5 bubbles,Darjeeling
+3.Himalayan Mountaineering Institute,Speciality Museums   Educational sites,4.5 of 5 bubbles,Darjeeling
+4.Japanese Peace Pagoda,Religious Sites,4.5 of 5 bubbles,Darjeeling
+5.Tinchuley Village,Historic Sites   Nature & Wildlife Areas,4.5 of 5 bubbles,Darjeeling
+6.Tiger Hill,Lookouts,4.0 of 5 bubbles,Darjeeling
+7.Mahakal Temple,Religious Sites,4.5 of 5 bubbles,Darjeeling
+8.Batasia Loop,Points of Interest & Landmarks,4.0 of 5 bubbles,Darjeeling
+9.Barbotey Rock Garden,Gardens,4.0 of 5 bubbles,Darjeeling
+10.Lamahatta,Points of Interest & Landmarks   Nature & Wildlife Areas,4.5 of 5 bubbles,Darjeeling
+11.Tea Garden,Gardens,4.0 of 5 bubbles,Darjeeling
+12.Happy Valley Tea Estate,Farms,4.0 of 5 bubbles,Darjeeling
+1. Ramoji Film City,Amusement & Theme Parks,4.5 of 5 bubbles,Hyderabad
+2. Golconda Fort,Historic Sites   Castles,4.5 of 5 bubbles,Hyderabad
+3. Birla Mandir,Religious Sites,4.5 of 5 bubbles,Hyderabad
+4. Salar Jung Museum,Art Museums,4.5 of 5 bubbles,Hyderabad
+5. Taj Falaknuma Palace,Architectural Buildings,4.5 of 5 bubbles,Hyderabad
+6. Charminar,Religious Sites   Monuments & Statues,4.0 of 5 bubbles,Hyderabad
+7. Chilkur Balaji Temple,Religious Sites,4.5 of 5 bubbles,Hyderabad
+8. Chowmahalla Palace,Architectural Buildings,4.5 of 5 bubbles,Hyderabad
+9. Shri Jagannath Temple,Religious Sites,4.5 of 5 bubbles,Hyderabad
+10. Calvary Temple,Religious Sites,5.0 of 5 bubbles,Hyderabad
+11. Nehru Zoological Park,Zoos,4.0 of 5 bubbles,Hyderabad
+12. Shilparamam Cultural Society,Visitor Centres   Points of Interest & Landmarks,4.0 of 5 bubbles,Hyderabad
+1. Triveni Ghat,Religious Sites,4.5 of 5 bubbles,Rishikesh
+2. Kunjapuri Devi Temple,Religious Sites,4.5 of 5 bubbles,Rishikesh
+3. Vashishta Gufa,Caverns & Caves,4.5 of 5 bubbles,Rishikesh
+4. Ram Jhula,Bridges,4.0 of 5 bubbles,Rishikesh
+5. Neer Garh Waterfall,Waterfalls,4.5 of 5 bubbles,Rishikesh
+6. Parmarth Niketan Ashram,Religious Sites,4.5 of 5 bubbles,Rishikesh
+7. Swarg Ashram,Religious Sites,4.5 of 5 bubbles,Rishikesh
+8. Lakshman Jhula Bridge,Bridges,4.0 of 5 bubbles,Rishikesh
+9. Veda Yogshala,Sports Camps & Clinics,5.0 of 5 bubbles,Rishikesh
+10. UbEx Travel,Convention Centres,5.0 of 5 bubbles,Rishikesh
+11. Sivananda Ashram,Canyons   Religious Sites,4.5 of 5 bubbles,Rishikesh
+12. Drishti Yoga School,Sports Camps & Clinics,5.0 of 5 bubbles,Rishikesh
+1.Arulmigu Manakula Vinayagar Temple,Religious Sites,4.5 of 5 bubbles,Pondicherry
+2.Paradise Beach,Beaches,4.0 of 5 bubbles,Pondicherry
+3.Seaside Promenade,Marinas   Piers & Boardwalks,4.0 of 5 bubbles,Pondicherry
+4.Sri Aurobindo Ashram,Points of Interest & Landmarks,4.0 of 5 bubbles,Pondicherry
+5.The Basilica of the Sacred Heart of Jesus,Churches & Cathedrals,4.5 of 5 bubbles,Pondicherry
+6.Rock Beach,Beaches,4.5 of 5 bubbles,Pondicherry
+7.Eglise de Notre Dame des Anges,Churches & Cathedrals,4.0 of 5 bubbles,Pondicherry
+8.Serenity Beach,Beaches,3.5 of 5 bubbles,Pondicherry
+9.Varadaraja Perumal Temple,Points of Interest & Landmarks   Religious Sites,4.5 of 5 bubbles,Pondicherry
+10.Chunnambar Boat House,Points of Interest & Landmarks,3.5 of 5 bubbles,Pondicherry
+11.Immaculate Conception Cathedral,Churches & Cathedrals,4.0 of 5 bubbles,Pondicherry
+12.French War Memorial,Monuments & Statues,3.5 of 5 bubbles,Pondicherry
+1. Nathula Pass,Historic Sites   Points of Interest & Landmarks,4.5 of 5 bubbles,Gangtok
+2. MG Marg,Neighbourhoods,4.5 of 5 bubbles,Gangtok
+3. Baba Harbhajan Singh Memorial Temple,Points of Interest & Landmarks,4.5 of 5 bubbles,Gangtok
+4. Hanuman Tok,Points of Interest & Landmarks,4.5 of 5 bubbles,Gangtok
+5. Ranka Monastery,Religious Sites,4.5 of 5 bubbles,Gangtok
+6. Himalayan Zoological Park,Zoos,4.0 of 5 bubbles,Gangtok
+7. Black Cat Museum,Military Museums   History Museums,5.0 of 5 bubbles,Gangtok
+8. Ganesh Tok View Point,Lookouts,4.0 of 5 bubbles,Gangtok
+9. Mt. Katao,Mountains,4.5 of 5 bubbles,Gangtok
+10. Gangtok Ropeway,Trams,3.5 of 5 bubbles,Gangtok
+11. Banjhakri Water Falls,Waterfalls,4.0 of 5 bubbles,Gangtok
+12. Tashi View Point,Observation Decks & Towers,4.0 of 5 bubbles,Gangtok
+1.Forest Research Institute,Educational sites,4.5 of 5 bubbles,Dehradun
+2.Tibetan Buddhist Temple,Religious Sites,4.5 of 5 bubbles,Dehradun
+3.Chetwoode Hall (Indian Military Academy),Educational sites,5.0 of 5 bubbles,Dehradun
+4.Pacific Mall,Shopping Malls,4.0 of 5 bubbles,Dehradun
+5.Shiv Mandir,Religious Sites,4.5 of 5 bubbles,Dehradun
+6.Subir Raha Oil Museum,Speciality Museums,4.5 of 5 bubbles,Dehradun
+7.Lacchiwalla,Points of Interest & Landmarks,4.0 of 5 bubbles,Dehradun
+8.Shri Parkasheshwar Mahadev Mandir,Religious Sites,4.5 of 5 bubbles,Dehradun
+9.Forest Research Institute Museum,History Museums,4.5 of 5 bubbles,Dehradun
+10.Uttarakhand Trails,Hiking Trails,4.5 of 5 bubbles,Dehradun
+11.MDDA Park,Parks,4.0 of 5 bubbles,Dehradun
+12.Wadia Institute of Himalayan Geology,Educational sites,4.0 of 5 bubbles,Dehradun
+1. Pangong Tso,Bodies of Water,5.0 of 5 bubbles,Leh
+2. Hall of Fame,Speciality Museums,4.5 of 5 bubbles,Leh
+3. Thiksey Monastery,Religious Sites,4.5 of 5 bubbles,Leh
+4. Gurdwara Pathar Sahib,Religious Sites,4.5 of 5 bubbles,Leh
+5. Confluence of the Indus and Zanskar Rivers,Points of Interest & Landmarks,4.5 of 5 bubbles,Leh
+6. Shanti Stupa,Religious Sites,4.5 of 5 bubbles,Leh
+7. Sand Dunes Leisure Park,Nature & Wildlife Areas,4.5 of 5 bubbles,Leh
+8. Spituk Monastery,Religious Sites,4.0 of 5 bubbles,Leh
+9. Leh Royal Palace,Architectural Buildings,3.5 of 5 bubbles,Leh
+10. Namgyal Tsemo Monastery,Religious Sites,4.5 of 5 bubbles,Leh
+11. Tanglang La,Scenic Drives,4.5 of 5 bubbles,Leh
+12. Magnetic Hill,Geologic Formations,3.5 of 5 bubbles,Leh
+1. Gandhi Ashram,Historic Sites,4.5 of 5 bubbles,Ahmedabad
+2. Sabarmati Riverfront,Piers & Boardwalks,4.5 of 5 bubbles,Ahmedabad
+3. Adalaj Step-well,Architectural Buildings,4.5 of 5 bubbles,Ahmedabad
+4. Kankaria Lake,Bodies of Water,4.5 of 5 bubbles,Ahmedabad
+5. Hathee Singh Jain Temple,Religious Sites,4.5 of 5 bubbles,Ahmedabad
+6. Gujarat Science City,Science Museums,4.0 of 5 bubbles,Ahmedabad
+7. Ahmedabad One Mall,Shopping Malls,4.5 of 5 bubbles,Ahmedabad
+8. Auto World Vintage Car Museum,Speciality Museums,4.5 of 5 bubbles,Ahmedabad
+9. Sidi Saiyyed Mosque,Historic Sites   Points of Interest & Landmarks,4.0 of 5 bubbles,Ahmedabad
+10. ISKCON Temple,Religious Sites,4.5 of 5 bubbles,Ahmedabad
+11. Dada Bhagwan Temple,Religious Sites,4.5 of 5 bubbles,Ahmedabad
+12. Manek Chowk,Points of Interest & Landmarks,4.0 of 5 bubbles,Ahmedabad
+1.Shankaracharya Hill,Points of Interest & Landmarks,4.5 of 5 bubbles,Srinagar
+2.Indira Gandhi Tulip Garden,Gardens,4.5 of 5 bubbles,Srinagar
+3.Dal Lake,Bodies of Water,4.5 of 5 bubbles,Srinagar
+4.Sonamarg,Geologic Formations,4.5 of 5 bubbles,Srinagar
+5.Nigeen Lake,Bodies of Water,4.5 of 5 bubbles,Srinagar
+6.Doodhpathri,Valleys,5.0 of 5 bubbles,Srinagar
+7.Nishat Garden,Gardens,4.0 of 5 bubbles,Srinagar
+8.Sinthan Top,Points of Interest & Landmarks,4.5 of 5 bubbles,Srinagar
+9.Betab Valley,Nature & Wildlife Areas,4.5 of 5 bubbles,Srinagar
+10.Yousmarg,Points of Interest & Landmarks   Scenic Drives,4.5 of 5 bubbles,Srinagar
+11.Hazratbal,Religious Sites,4.0 of 5 bubbles,Srinagar
+12.Pari Mahal,Ancient Ruins,4.0 of 5 bubbles,Srinagar
+1. Shree Jagannath Temple,Points of Interest & Landmarks   Religious Sites,4.5 of 5 bubbles,Puri
+2. Puri Beach,Beaches,4.0 of 5 bubbles,Puri
+3. Raghurajpur Artist Village,Neighbourhoods,4.5 of 5 bubbles,Puri
+4. Konark Beach,Beaches,4.5 of 5 bubbles,Puri
+5. Wonder World Water Park,Water Parks,5.0 of 5 bubbles,Puri
+6. Chilika Lake,Bodies of Water,4.0 of 5 bubbles,Puri
+"7. Swargadwar Sea Beach, Puri, Odisha",Beaches,4.0 of 5 bubbles,Puri
+8. Vimala Temple,Religious Sites,4.5 of 5 bubbles,Puri
+9. Ratha Yatra,Cultural Events,5.0 of 5 bubbles,Puri
+10. Chilika Wildlife Sanctuary,Nature & Wildlife Areas,4.0 of 5 bubbles,Puri
+11. Gundicha Temple,Religious Sites,3.5 of 5 bubbles,Puri
+12. Sakshigopal Temple,Religious Sites,3.5 of 5 bubbles,Puri
+1.Dainkund Peak,Mountains,4.5 of 5 bubbles,Dalhousie
+2.Chamera Lake,Bodies of Water,4.0 of 5 bubbles,Dalhousie
+3.Sach Pass,Points of Interest & Landmarks,4.5 of 5 bubbles,Dalhousie
+4.Ganji Pahari,Hiking Trails,4.5 of 5 bubbles,Dalhousie
+5.St. John's Church,Churches & Cathedrals,4.0 of 5 bubbles,Dalhousie
+6.Gandhi Chowk Shopping Plaza,Shopping Malls,3.5 of 5 bubbles,Dalhousie
+7.Beeji's Park,Parks,4.5 of 5 bubbles,Dalhousie
+8.St. Patrick's Church,Churches & Cathedrals,4.0 of 5 bubbles,Dalhousie
+9.Garam Sadak,Hiking Trails,4.0 of 5 bubbles,Dalhousie
+10.Moti Tibba,Mountains,4.0 of 5 bubbles,Dalhousie
+11.St. Francis Church,Churches & Cathedrals,4.0 of 5 bubbles,Dalhousie
+12.Rang Mahal,Architectural Buildings,4.0 of 5 bubbles,Dalhousie

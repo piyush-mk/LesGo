@@ -1,0 +1,184 @@
+location,P_type,Count
+Agra,Historic Sites,1
+Agra,Architectural Buildings,3
+Agra,Nature Wildlife Areas,1
+Agra,Missions Religious Sites,1
+Agra,Parks,1
+Agra,Art Galleries,1
+Agra,Religious Sites,1
+Agra,Architectural Buildings  Religious Sites,1
+Agra,Convention Centres,1
+Agra,Gardens,1
+Mumbai,Religious Sites,1
+Mumbai,Monuments Statues,2
+Mumbai,Scenic Drives,1
+Mumbai,Bridges,1
+Mumbai,Historic Sites  Architectural Buildings,1
+Mumbai,Amusement Theme Parks,2
+Mumbai,Neighbourhoods,2
+Mumbai,History Museums,1
+Jaipur,Architectural Buildings,3
+Jaipur,Nature Wildlife Areas,3
+Jaipur,Historic Sites  Architectural Buildings,1
+Jaipur,History Museums,1
+Jaipur,Observatories Planetariums,1
+Jaipur,Military Museums  Historic Sites,1
+Jaipur,Speciality Museums,1
+Jaipur,Art Galleries  Art Museums,1
+Varanasi,Art Galleries,1
+Varanasi,Religious Sites,4
+Varanasi,Architectural Buildings  Religious Sites,1
+Varanasi,Bodies of Water,1
+Varanasi,Sports Camps Clinics,1
+Manali,Religious Sites,2
+Manali,Bodies of Water,3
+Manali,Valleys,1
+Manali,Waterfalls,2
+Manali,Lookouts,1
+Manali,Ski Snowboard Areas,1
+Manali,Speciality Museums  History Museums,1
+Manali,Hot Springs Geysers,1
+New Delhi,Historic Sites,2
+New Delhi,Architectural Buildings,2
+New Delhi,Religious Sites,1
+New Delhi,Architectural Buildings  Religious Sites,1
+New Delhi,Gardens,1
+New Delhi,Neighbourhoods,1
+New Delhi,Religious Sites  Gardens,1
+New Delhi,Historic Sites  Religious Sites,1
+New Delhi,Flea Street Markets,1
+New Delhi,Public Transportation Systems,1
+Kolkata,Parks,1
+Kolkata,Religious Sites,1
+Kolkata,Bridges,1
+Kolkata,Speciality Museums,1
+Kolkata,Arenas Stadiums,1
+Kolkata,Natural History Museums  History Museums,1
+Kolkata,Cemeteries,1
+Kolkata,Amusement Theme Parks  Science Museums,1
+Kolkata,Churches Cathedrals,1
+Chennai,Architectural Buildings,1
+Chennai,Religious Sites,4
+Chennai,Architectural Buildings  Religious Sites,1
+Chennai,Amusement Theme Parks,1
+Chennai,Neighbourhoods,1
+Chennai,Beaches,2
+Chennai,Shopping Malls,1
+Chennai,Aquariums,1
+Shimla,Architectural Buildings,1
+Shimla,Parks,1
+Shimla,Religious Sites,2
+Shimla,Valleys,1
+Shimla,Churches Cathedrals,1
+Shimla,Educational sites,2
+Shimla,Mountains,1
+Shimla,Scenic Walking Areas,1
+Bengaluru,Nature Wildlife Areas,1
+Bengaluru,Parks,1
+Bengaluru,Religious Sites,3
+Bengaluru,Architectural Buildings  Religious Sites,1
+Bengaluru,Gardens,1
+Bengaluru,Amusement Theme Parks,1
+Bengaluru,Neighbourhoods,1
+Bengaluru,Shopping Malls,1
+Bengaluru,Science Museums,1
+Ooty,Gardens,2
+Ooty,Amusement Theme Parks,1
+Ooty,Speciality Museums,1
+Ooty,Bodies of Water,5
+Ooty,Waterfalls,1
+Ooty,Mountains,1
+Ooty,National Parks,1
+Nainital,Nature Wildlife Areas,1
+Nainital,Religious Sites,3
+Nainital,Historic Sites  Architectural Buildings,1
+Nainital,Observatories Planetariums,1
+Nainital,Bodies of Water,1
+Nainital,Lookouts,1
+Nainital,Mountains,1
+Nainital,Parks  Gardens,1
+Nainital,Zoos,1
+Nainital,Monuments Statues  Geologic Formations,1
+Darjeeling,Nature Wildlife Areas,1
+Darjeeling,Religious Sites,2
+Darjeeling,Gardens,2
+Darjeeling,Lookouts,1
+Darjeeling,Mountains,1
+Darjeeling,Zoos,1
+Darjeeling,Speciality Museums  Educational sites,1
+Darjeeling,Historic Sites  Nature Wildlife Areas,1
+Darjeeling,Farms,1
+Hyderabad,Architectural Buildings,2
+Hyderabad,Religious Sites,4
+Hyderabad,Amusement Theme Parks,1
+Hyderabad,Zoos,1
+Hyderabad,Historic Sites  Castles,1
+Hyderabad,Art Museums,1
+Hyderabad,Religious Sites  Monuments Statues,1
+Hyderabad,Visitor Centres,1
+Rishikesh,Religious Sites,4
+Rishikesh,Convention Centres,1
+Rishikesh,Bridges,2
+Rishikesh,Sports Camps Clinics,2
+Rishikesh,Waterfalls,1
+Rishikesh,Caverns Caves,1
+Rishikesh,Canyons  Religious Sites,1
+Pondicherry,Religious Sites,2
+Pondicherry,Monuments Statues,1
+Pondicherry,Churches Cathedrals,3
+Pondicherry,Beaches,3
+Pondicherry,Marinas  Piers Boardwalks,1
+Gangtok,Historic Sites,1
+Gangtok,Religious Sites,1
+Gangtok,Neighbourhoods,1
+Gangtok,Waterfalls,1
+Gangtok,Lookouts,1
+Gangtok,Mountains,1
+Gangtok,Zoos,1
+Gangtok,Military Museums  History Museums,1
+Gangtok,Trams,1
+Gangtok,Observation Decks Towers,1
+Dehradun,Parks,1
+Dehradun,Religious Sites,3
+Dehradun,History Museums,1
+Dehradun,Speciality Museums,1
+Dehradun,Shopping Malls,1
+Dehradun,Educational sites,3
+Dehradun,Hiking Trails,1
+Leh,Architectural Buildings,1
+Leh,Nature Wildlife Areas,1
+Leh,Religious Sites,5
+Leh,Scenic Drives,1
+Leh,Speciality Museums,1
+Leh,Bodies of Water,1
+Leh,Geologic Formations,1
+Ahmedabad,Historic Sites,2
+Ahmedabad,Architectural Buildings,1
+Ahmedabad,Religious Sites,3
+Ahmedabad,Speciality Museums,1
+Ahmedabad,Bodies of Water,1
+Ahmedabad,Shopping Malls,1
+Ahmedabad,Science Museums,1
+Ahmedabad,Piers Boardwalks,1
+Srinagar,Nature Wildlife Areas,1
+Srinagar,Religious Sites,1
+Srinagar,Gardens,2
+Srinagar,Scenic Drives,1
+Srinagar,Bodies of Water,2
+Srinagar,Valleys,1
+Srinagar,Geologic Formations,1
+Srinagar,Ancient Ruins,1
+Puri,Nature Wildlife Areas,1
+Puri,Religious Sites,4
+Puri,Neighbourhoods,1
+Puri,Bodies of Water,1
+Puri,Beaches,3
+Puri,Water Parks,1
+Puri,Cultural Events,1
+Dalhousie,Architectural Buildings,1
+Dalhousie,Parks,1
+Dalhousie,Bodies of Water,1
+Dalhousie,Churches Cathedrals,3
+Dalhousie,Shopping Malls,1
+Dalhousie,Mountains,2
+Dalhousie,Hiking Trails,2
